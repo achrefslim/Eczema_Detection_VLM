@@ -1,0 +1,27 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Generated at runtime (may contain patient images and medical data)
+output/
+reports/
+history/
+temp_uploads/
+test_images/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+eczema-app/build/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
